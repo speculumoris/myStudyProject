@@ -1,4 +1,4 @@
-package Project01;
+package project01;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
@@ -26,6 +26,7 @@ public class TekYon extends CiftYon {
             System.out.println("bilet fiyatiniz 65 yas indirimi ile birlikte :" + normalFiyat);
         } else {
             System.out.println("Herhangi indiriminiz yoktur" + normalFiyat);
+
         }
 
     }

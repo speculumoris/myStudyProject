@@ -1,4 +1,4 @@
-package Project01;
+package project01;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Runner {
                 "rota C icin C \n"+ "rota D icin D");
         String route= scan.next();
 
-        Rota rota = new Rota(route);
+        Yolcu yolcu = new Yolcu(route);
 
 
     }

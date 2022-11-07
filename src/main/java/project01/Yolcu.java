@@ -1,9 +1,9 @@
-package Project01;
+package project01;
 
-public class Rota extends GidisDonus{
+public class Yolcu extends GidisDonus{
     char route;
 
-    public Rota(String route){
+    public Yolcu(String route){
         super();
         if (route.equalsIgnoreCase("b")){
             normalFiyat = 500 * kmFiyati;
