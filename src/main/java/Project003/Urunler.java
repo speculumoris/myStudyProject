@@ -146,7 +146,7 @@ public class Urunler {
         String raf = scan.nextLine();
 
         Urunler prdct = new Urunler(id,urunIsmi, uretici, birim, miktr, raf);
-        products.add(prdct);
+        products.add(prdct);//additional
 
     }
 
