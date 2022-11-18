@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="daily012" />
+    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="daily0123">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/Islemler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project003/Islemler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/Urunler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project003/Urunler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
@@ -126,9 +133,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductsRunner" />
         <item itemvalue="Application.SinifRunner" />
         <item itemvalue="Application.SinifListesiAgain" />
-        <item itemvalue="Application.ProductsRunner" />
         <item itemvalue="Application.dailyproblems01.Q03" />
         <item itemvalue="Application.dailyproblems01.Q02" />
       </list>
@@ -227,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668790025746</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="daily012">
+      <created>1668790433996</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668790433997</updated>
+    </task>
+    <task id="LOCAL-00014" summary="daily0123">
+      <created>1668790463735</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668790463736</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +269,7 @@
     <MESSAGE value="Projects003" />
     <MESSAGE value="daily01" />
     <MESSAGE value="daily012" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily012" />
+    <MESSAGE value="daily0123" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily0123" />
   </component>
 </project>
