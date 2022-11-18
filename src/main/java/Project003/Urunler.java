@@ -65,7 +65,7 @@ public class Urunler {
 
     public int getMiktar() {
         return miktar;
-    }
+    }//.
 
     public void setMiktar(int miktar) {
         this.miktar = miktar;
