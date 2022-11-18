@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="daily01">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="daily012" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/myStudyProject" value="yusuf123" />
@@ -214,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668787432290</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="daily01">
+      <created>1668789682254</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668789682254</updated>
+    </task>
+    <task id="LOCAL-00012" summary="daily012">
+      <created>1668790025745</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668790025746</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +247,7 @@
     <MESSAGE value="daily problems" />
     <MESSAGE value="Projects003" />
     <MESSAGE value="daily01" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily01" />
+    <MESSAGE value="daily012" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily012" />
   </component>
 </project>
