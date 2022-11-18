@@ -86,7 +86,7 @@ public class Urunler {
                 ", uretici='" + uretici + '\'' +
                 ", birim='" + birim + '\'' +
                 ", miktar=" + miktar +
-                ", rafNo='" + rafNo + '\'' +
+                ", rafNo='" + rafNo + '\''+"\n" +
                 '}';
     }
     public static void Cikis() {
