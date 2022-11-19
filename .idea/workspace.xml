@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="daily0123">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AtmProject/Atm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/Cember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/Dikdortgen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/DikdortgenKare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/PatternsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/Task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/Ucgen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/Islemler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project003/Islemler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/Urunler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project003/Urunler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/Islemler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warehouseproject/Islemler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/ProductsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warehouseproject/ProductsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/Urunler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warehouseproject/Urunler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project003/Islemler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project003/ProductsRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project003/Urunler.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +76,26 @@
       <recent name="$PROJECT_DIR$/src/main/java/Project003" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductsRunner">
-    <configuration name="ProductsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project003.ProductsRunner" />
+  <component name="RunManager" selected="Application.warehouseproject.ProductsRunner">
+    <configuration name="PatternsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.PatternsRunner" />
       <module name="Projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project003.*" />
+          <option name="PATTERN" value="patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="warehouseproject.ProductsRunner" />
+      <module name="Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="warehouseproject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dailyproblems01.Q02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dailyproblems01.Q02" />
-      <module name="Projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dailyproblems01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="dailyproblems01.Q03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dailyproblems01.Q03" />
       <module name="Projects" />
@@ -133,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductsRunner" />
+        <item itemvalue="Application.warehouseproject.ProductsRunner" />
+        <item itemvalue="Application.PatternsRunner" />
         <item itemvalue="Application.SinifRunner" />
         <item itemvalue="Application.SinifListesiAgain" />
         <item itemvalue="Application.dailyproblems01.Q03" />
-        <item itemvalue="Application.dailyproblems01.Q02" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668790463736</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="daily0123">
+      <created>1668796460463</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668796460464</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

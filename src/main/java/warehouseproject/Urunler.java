@@ -1,14 +1,9 @@
-package Project003;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
+package warehouseproject;
 
 
 public class Urunler {
 
-    private int id;
+
     private String urunIsmi;
     private String uretici;
     private String birim;
@@ -71,13 +66,12 @@ public class Urunler {
 
     @Override
     public String toString() {
-        return "Urunler{" +
-                "urunIsmi='" + urunIsmi + '\'' +
-                ", uretici='" + uretici + '\'' +
-                ", birim='" + birim + '\'' +
+        return " Depo'daki urunler: " +
+                "urunIsmi=" + urunIsmi +
+                ", uretici=" + uretici  +
+                ", birim=" + birim   +
                 ", miktar=" + miktar +
-                ", rafNo='" + rafNo + '\''+"\n" +
-                '}';
+                ", rafNo=" + rafNo + "\n";
     }
 
 

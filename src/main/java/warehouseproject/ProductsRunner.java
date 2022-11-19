@@ -1,6 +1,6 @@
-package Project003;
+package warehouseproject;
 
-import static Project003.Islemler.girisEkrani1;
+import static warehouseproject.Islemler.girisEkrani1;
 
 
 public class ProductsRunner {

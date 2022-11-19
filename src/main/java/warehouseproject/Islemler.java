@@ -1,11 +1,7 @@
-package Project003;
+package warehouseproject;
 
 import java.util.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
-import static Project003.Urunler.*;
 
 public class Islemler {
     static Scanner scan = new Scanner(System.in);
@@ -64,7 +60,8 @@ public class Islemler {
             if (urunler.containsKey(idNo)){
                 System.out.println("alinan urun miktarini giriniz");
                 int alinanUrun= scan.nextInt();
-                System.out.println("Urun miktari degismistir Urun Miktari: " +urunler.get(idNo).getRafNo());
+                urunler.get(idNo).setMiktar(urunler.get(idNo).getMiktar()+alinanUrun);
+                System.out.println("Urun miktari degismistir Urun Miktari: " +urunler.get(idNo).getMiktar());
             }else System.out.println("Urun envanterde yoktur");
         }
 
@@ -73,10 +70,8 @@ public class Islemler {
         }
 
         public static void urunListele() {
-            System.out.println("**********Urun Envanter Listesi***********");
+            System.out.println("************URUNLER******************");
             System.out.println(urunler);
-
-
         }
 
         public static void satilanUrun() {
@@ -97,7 +92,7 @@ public class Islemler {
                 System.out.println("urunu hangi rafa koyacaginizi yaziniz");
                 String rafNoYeni= scan.nextLine();
                 urunler.get(idNo).setRafNo(rafNoYeni);
-                System.out.println("Urun Raf numarasi degismistir Urun RafNo: " +urunler.get(idNo).getRafNo());
+                System.out.println("Urun Raf numarasi degismistir Urun RafNo: " +urunler.get(idNo).getMiktar());
             }else System.out.println("Urun envanterde yoktur");
 
 
@@ -112,7 +107,7 @@ public class Islemler {
             System.out.println("urunun yeni miktarini giriniz");
             int yeniMiktar = scan.nextInt();
             urunler.get(idNo).setMiktar(yeniMiktar);
-            System.out.println("Urun miktari degismistir Urun Miktari: " + urunler.get(idNo).getRafNo());
+            System.out.println("Urun miktari degismistir Urun Miktari: " + urunler.get(idNo).getMiktar());
         } else {
             System.out.println("Urun envanterde yoktur");
         }
@@ -122,7 +117,8 @@ public class Islemler {
         System.out.println("Lutfen urun bilgilerini sirasiyla giriniz");
 
         System.out.println("Lutfen urun adini giriniz");
-        String urunIsmi = scan.nextLine();scan.nextLine();
+        scan.nextLine();
+        String urunIsmi = scan.nextLine();
 
         System.out.println("Lutfen uretici bilgisini giriniz");
         String uretici = scan.nextLine();
@@ -134,12 +130,13 @@ public class Islemler {
         System.out.println("Lutfen miktarini giriniz");
         int miktar = scan.nextInt();
         scan.nextLine();
-
         System.out.println("lutfen urunun rafini giriniz");
-        String rafNo = scan.nextLine();scan.nextLine();
+        String rafNo = scan.nextLine();
 
         Urunler products = new Urunler(urunIsmi, uretici, birim, miktar, rafNo);
+
         urunler.put(id, products);
+
         id++;
     }
 
