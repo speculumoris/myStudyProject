@@ -66,7 +66,7 @@ public class Islemler {
         }
 
         public static void Cikis() {
-            System.out.println("cikisiniz yapilmistir");
+            System.out.println("cikisiniz1 yapilmistir");
         }
 
         public static void urunListele() {
