@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="daily0123">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AtmProject/Atm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/Cember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/Dikdortgen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/DikdortgenKare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/PatternsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/Task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/Ucgen.java" afterDir="false" />
+    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="daily012">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AtmProject/Islemler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dailyproblems01/Q04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dailyproblems01/Q05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/Islemler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warehouseproject/Islemler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/ProductsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warehouseproject/ProductsRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project003/Urunler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warehouseproject/Urunler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project003/Islemler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project003/ProductsRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project003/Urunler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AtmProject/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AtmProject/Atm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +67,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/Project003" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.warehouseproject.ProductsRunner">
+  <component name="RunManager" selected="Application.Q04">
+    <configuration name="Islemler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtmProject.Islemler" />
+      <module name="Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AtmProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PatternsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.PatternsRunner" />
       <module name="Projects" />
@@ -103,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinifListesiAgain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dailyproblems01.SinifListesiAgain" />
+    <configuration name="Q04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dailyproblems01.Q04" />
       <module name="Projects" />
       <extension name="coverage">
         <pattern>
@@ -116,21 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinifRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dailyproblems01.SinifRunner" />
-      <module name="Projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dailyproblems01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dailyproblems01.Q03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dailyproblems01.Q03" />
+    <configuration name="Q05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dailyproblems01.Q05" />
       <module name="Projects" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q04" />
+        <item itemvalue="Application.Q05" />
+        <item itemvalue="Application.Islemler" />
         <item itemvalue="Application.warehouseproject.ProductsRunner" />
         <item itemvalue="Application.PatternsRunner" />
-        <item itemvalue="Application.SinifRunner" />
-        <item itemvalue="Application.SinifListesiAgain" />
-        <item itemvalue="Application.dailyproblems01.Q03" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668796460464</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="daily01">
+      <created>1668887150147</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668887150148</updated>
+    </task>
+    <task id="LOCAL-00017" summary="daily01">
+      <created>1668887551550</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668887551550</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,9 +290,9 @@
     <MESSAGE value="daily news" />
     <MESSAGE value="daily problems" />
     <MESSAGE value="Projects003" />
-    <MESSAGE value="daily01" />
     <MESSAGE value="daily012" />
     <MESSAGE value="daily0123" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily0123" />
+    <MESSAGE value="daily01" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily01" />
   </component>
 </project>
