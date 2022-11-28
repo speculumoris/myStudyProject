@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="daily">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolProj/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolProj/SchoolMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolProj/Students.java" afterDir="false" />
+    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="SchoolProj added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookSeller/BookSellerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookSeller/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookSeller/DisplayScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookSeller/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +67,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/Project003" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SchoolMain">
-    <configuration name="Islemler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtmProject.Islemler" />
+  <component name="RunManager" selected="Application.BookSellerRunner">
+    <configuration name="BookSellerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BookSeller.BookSellerRunner" />
       <module name="Projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtmProject.*" />
+          <option name="PATTERN" value="BookSeller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.PatternsRunner" />
+    <configuration name="Islemler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtmProject.Islemler" />
       <module name="Projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.*" />
+          <option name="PATTERN" value="AtmProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookSellerRunner" />
         <item itemvalue="Application.SchoolMain" />
         <item itemvalue="Application.Q04" />
         <item itemvalue="Application.Q05" />
         <item itemvalue="Application.Islemler" />
-        <item itemvalue="Application.PatternsRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668967767711</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="SchoolProj added">
+      <created>1669468992422</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468992423</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +307,7 @@
     <MESSAGE value="daily0123" />
     <MESSAGE value="daily01" />
     <MESSAGE value="daily012" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily012" />
+    <MESSAGE value="SchoolProj added" />
+    <option name="LAST_COMMIT_MESSAGE" value="SchoolProj added" />
   </component>
 </project>
