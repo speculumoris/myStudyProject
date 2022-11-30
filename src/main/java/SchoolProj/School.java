@@ -22,6 +22,13 @@ public class School {
         int cikis=0;
 
         do {
+            boolean k=true;
+            if(ogrenci.size()==maxOgrenciSayisi){
+                System.out.println("ogrenci ekleme kapasitesinr ulastiniz\n" +
+                        "daha fazla ekleme yapamazsiniz..cikisiniz yapiliyor");
+                System.out.println("ogrenci bilgileri: "+ogrenci);
+                break;
+            }
             System.out.println("lutfen ogrenci bilgilerini giriniz\n" +
                     "cikmak icin 1'e basiniz");
 
@@ -33,24 +40,21 @@ public class School {
 
             System.out.print("lutfen ogrenci yasini giriniz: ");
             ogrenciYas = scan.nextInt();
+
             ogrenciYasi(ogrenciYas);
 
-            if(ogrenci.size()==maxOgrenciSayisi){
-                System.out.println("ogrenci ekleme kapasitesinr ulastiniz\n" +
-                        "daha fazla ekleme yapamazsiniz..cikisiniz yapiliyor");
-                System.out.println("ogrenci bilgileri: "+ogrenci);
-                break;
-            }
+
+
             ogrenciEkleme(ogrenciAdi,ogrenciSoyAdi,ogrenciYas);
 
 
             System.out.print("cikis icin 1 devam etmek icin 2'ye basiniz: ");
             cikis= scan.nextInt();
             scan.nextLine();
+
             if (cikis==1){
+                k=false;
                 break;
-            }else {
-                continue;
             }
 
         }while (true);

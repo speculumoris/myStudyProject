@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="SchoolProj added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookSeller/BookSellerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookSeller/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookSeller/DisplayScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookSeller/Task.txt" afterDir="false" />
+    <list default="true" id="37903ece-d5a9-4b69-85e3-bfac7f33a4ff" name="Changes" comment="BookSellerProjects1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BookSeller/BookSellerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookSeller/BookSellerRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BookSeller/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookSeller/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BookSeller/DisplayScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookSeller/DisplayScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SchoolProj/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SchoolProj/School.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669468992423</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="BookSellerProjects1">
+      <created>1669652637950</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669652637951</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +315,7 @@
     <MESSAGE value="daily01" />
     <MESSAGE value="daily012" />
     <MESSAGE value="SchoolProj added" />
-    <option name="LAST_COMMIT_MESSAGE" value="SchoolProj added" />
+    <MESSAGE value="BookSellerProjects1" />
+    <option name="LAST_COMMIT_MESSAGE" value="BookSellerProjects1" />
   </component>
 </project>
