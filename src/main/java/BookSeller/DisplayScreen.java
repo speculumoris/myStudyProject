@@ -52,13 +52,13 @@ public class DisplayScreen {
                 System.out.println("cikisiniz yapiliyor");
                 break;
             }
-            scan.nextLine();//dummy
+            scan.nextLine();
             if (info == 1) {
                 System.out.println("lutfen gormek istediginiz kitabn yazarinin adini giriniz: ");
                 String authorNAme = scan.nextLine();
                 for (Books author1 : booksList) {
                     if (author1.authorName.equalsIgnoreCase(authorNAme)) {
-                        System.out.println("kitap num: " + author1.bookNo +
+                        System.out.println("kitap num: " + author1.authorName +
                                 ", Yazar ismi: " + author1.authorName + "," +
                                 ", Kitap ismi:" + author1.bookName +
                                 ", Kitap fiyati:" + author1.bookPrice);
@@ -75,7 +75,7 @@ public class DisplayScreen {
                 String bookName = scan.nextLine();
                 for (Books book1 : booksList) {
                     if (book1.authorName.equalsIgnoreCase(bookName)) {
-                        System.out.println("kitap num: " + book1.bookNo +
+                        System.out.println("kitap num: " + book1.authorName +
                                 ", Yazar ismi: " + book1.authorName + "," +
                                 ", Kitap ismi:" + book1.bookName +
                                 ", Kitap fiyati:" + book1.bookPrice);
@@ -103,7 +103,7 @@ public class DisplayScreen {
             }
             for (Books bookno1 : booksList) {
                 if (bookNo == bookno1.bookNo) {
-                    System.out.println("kitap num: " + bookno1.bookNo +
+                    System.out.println("kitap num: " + bookNo +
                             ", Kitap ismi: " + bookno1.bookName +
                             ", Yazar ismi:" + bookno1.authorName +
                             ", Kitap fiyati:" + bookno1.bookPrice);
@@ -131,7 +131,7 @@ public class DisplayScreen {
             }
             String yazarAdi = scan.nextLine();
             double bookPrice = scan.nextDouble();
-            scan.nextLine();//dummy
+            scan.nextLine();
 
             Books books = new Books(count, yazarAdi, bookName, bookPrice);
             booksList.add(books);
